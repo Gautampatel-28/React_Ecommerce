@@ -260,8 +260,8 @@
 }
 .home .trending .container .right_box .right_container .testimonial .detail .img_box img
 {
-    margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 25px;
+    width: 75%;
 }
 .home .trending .container .right_box .right_container .testimonial .detail .info
 {

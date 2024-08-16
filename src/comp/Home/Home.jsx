@@ -103,12 +103,12 @@ const Home = ({ addtocart }) => {
                   </div>
                   <div className='detail'>
                     <div className='img_box'>
-                      <img src='image/T1.avif' alt='testimonial' />
+                      <img src="/image/DP.png" alt='testimonial' />
                     </div>
                     <div className='info'>
-                      <h3>Stephan Robot</h3>
-                      <h4>Web Designer</h4>
-                      <p>Duis faucibus enim vitae nunc molestie, nec facilisis arcu pulvinar nullam mattis.</p>
+                      <h3>Gautam Patel</h3>
+                      <h4>Developer</h4>
+                      <p>Our E-commerce platform has greatly improved our website performance and User Experience..</p>
                     </div>
                   </div>
                 </div>

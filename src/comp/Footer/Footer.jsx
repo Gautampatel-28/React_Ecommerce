@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>Great Saving</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p>Discover Unbeatable Savings with Cutting-Edge Technology</p>
                     </div>
                 </div>
                     <div className='box'>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>free delivery</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p> Transforming eCommerce with Cutting-Edge Products and No-Cost Delivery</p>
                     </div>
                 </div>
                 <div className='box'>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>24X7 support</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p>Your Tech Solutions Are Just a Click Away, 24/7.</p>
                     </div>
                 </div>
                 <div className='box'>
@@ -40,14 +40,14 @@ const Footer = () => {
                     </div>
                     <div className='detail'>
                         <h3>money back</h3>
-                        <p>Lorem ipsum dolor sit amet,</p>
+                        <p>Your Satisfaction is Our Priority with a Risk-Free Money-Back Guarantee</p>
                     </div>
                 </div>
             </div>
             <div className='right_box'>
                 <div className='header'>
                     <img src='image/logo.webp' alt=''></img>
-                    <p>Lorem ipsum dolor sit amet, consectetur Nuliscing elit. Duis faucibus ipsum id sem Putconsequat Text.</p>
+                    <p> Bridging the Gap Between Technology and Retail with Unprecedented Ease and Style..</p>
                 </div>
                 <div className='bottom'>
                     <div className='box'>
@@ -71,8 +71,8 @@ const Footer = () => {
                         <h3>contact us</h3>
                         <ul>
                             <li>4005, Silver Business PointIndia</li>
-                            <li>+(012)99999999</li>
-                            <li>info@gmail.com</li>
+                            <li>(+91)4492354622</li>
+                            <li>gautampatel7233@gmail.com</li>
                         </ul>
                     </div>
                 </div>
