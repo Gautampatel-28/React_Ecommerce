@@ -23,7 +23,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
             </div>
             <div className="mid_header"> 
               <div className="logo">
-                  <img src="image/logo.webp" alt="logo" />
+                  <img src={`${import.meta.env.BASE_URL}image/logo.webp`} alt="logo" />
               </div>
               <div className='search_box'>
               <input type='text' value={search} placeholder='search' onChange={(e) => setSearch(e.target.value)} />

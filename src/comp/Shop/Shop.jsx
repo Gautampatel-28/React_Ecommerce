@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "../Shop/Shop.css";
 import { AiFillHeart, AiFillEye, AiOutlineClose } from "react-icons/ai";
 
@@ -29,7 +29,7 @@ const Shop = ({ shop, Filter, allcatefilter, addtocart }) => {
             </button>
             <div className="container">
               <div className="img_box">
-                <img src={detail.image} alt="" />
+                <img src={detail.image} alt="pic" />
               </div>
               <div className="info">
                 <h4># {detail.cat}</h4>
@@ -70,14 +70,14 @@ const Shop = ({ shop, Filter, allcatefilter, addtocart }) => {
             </div>
             <div className="banner">
               <div className="img_box">
-                <img src="image/shop_left.avif" alt="" />
+                <img src={`${import.meta.env.BASE_URL}image/shop_left.webp`} alt="pic" />
               </div>
             </div>
           </div>
           <div className="right_box">
             <div className="banner">
               <div className="img_box">
-                <img src="image/shop_top.webp" alt="" />
+                <img src={`${import.meta.env.BASE_URL}image/shop_top.webp`} alt="pic" />
               </div>
             </div>
             <div className="product_box">
@@ -88,7 +88,7 @@ const Shop = ({ shop, Filter, allcatefilter, addtocart }) => {
                     <div className="box" key={curElm.id}>
                       {" "}
                       <div className="img_box">
-                        <img src={curElm.image} alt="" />
+                        <img src={curElm.image} alt="pic" />
                         <div className="icon">
                           <li>
                             <AiFillHeart />

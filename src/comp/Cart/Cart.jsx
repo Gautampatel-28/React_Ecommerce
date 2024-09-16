@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import "../Cart/Cart.css";
 import { Link } from 'react-router-dom';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -64,7 +64,7 @@ const Cart = ({ cart, setCart }) => {
             {cart.map((curElm) => (
               <div className="box" key={curElm.id}>
                 <div className="img_box">
-                  <img src={curElm.image} alt="" />
+                  <img src={curElm.image} alt="pic" />
                 </div>
                 <div className="detail">
                   <div className='info'>

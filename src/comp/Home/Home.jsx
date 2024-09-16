@@ -157,19 +157,19 @@ const Home = ({ addtocart }) => {
           <div className='container'>
             <div className='left_box'>
               <div className='box'>
-              <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-1.avif`} alt='banner' />
+              <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-1.webp`} alt='banner1' />
               </div>
               <div className='box'>
-                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-2.avif`}alt='banner' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-banner-2.webp`}alt='banner2' />
               </div>
             </div>
             <div className='right_box'>
               <div className='top'>
-                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-3.webp`} alt='banner' />
-                <img src='image/Multi-Banner-4.avif' alt='' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-3.webp`} alt='banner3' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-banner-4.webp`}alt='banner4' />
               </div>
               <div className='bottom'>
-                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-5.webp`} alt='banner' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-5.webp`} alt='banner5' />
               </div>
             </div>
           </div>

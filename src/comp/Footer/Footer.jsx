@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div className='right_box'>
                 <div className='header'>
-                    <img src='image/logo.webp' alt=''></img>
+                    <img src={`${import.meta.env.BASE_URL}image/logo.webp`} alt='pic'></img>
                     <p> Bridging the Gap Between Technology and Retail with Unprecedented Ease and Style..</p>
                 </div>
                 <div className='bottom'>
