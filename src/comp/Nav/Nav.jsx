@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Nav.css";
 import { MdLocalShipping } from "react-icons/md";
 import { AiOutlineSearch } from "react-icons/ai";
