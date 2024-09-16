@@ -103,7 +103,7 @@ const Home = ({ addtocart }) => {
                   </div>
                   <div className='detail'>
                     <div className='img_box'>
-                      <img src="/image/DP.png" alt='testimonial' />
+                    <img src={`${import.meta.env.BASE_URL}image/DP.png`} alt='testimonial' />
                     </div>
                     <div className='info'>
                       <h3>Gautam Patel</h3>
@@ -144,19 +144,19 @@ const Home = ({ addtocart }) => {
           <div className='container'>
             <div className='left_box'>
               <div className='box'>
-                <img src='image/Multi-Banner-1.avif' alt='banner' />
+              <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-1.avif`} alt='banner' />
               </div>
               <div className='box'>
-                <img src='image/Multi-Banner-2.avif' alt='banner' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-2.avif`}alt='banner' />
               </div>
             </div>
             <div className='right_box'>
               <div className='top'>
-                <img src='image/Multi-Banner-3.webp' alt='' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-3.webp`} alt='banner' />
                 <img src='image/Multi-Banner-4.avif' alt='' />
               </div>
               <div className='bottom'>
-                <img src='image/Multi-Banner-5.webp' alt='' />
+                <img src={`${import.meta.env.BASE_URL}image/Multi-Banner-5.webp`} alt='banner' />
               </div>
             </div>
           </div>
