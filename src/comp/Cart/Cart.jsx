@@ -46,6 +46,9 @@ const Cart = ({ cart, setCart }) => {
     const itemQty = parseInt(item.qty, 10);
     return price + (itemQty * itemPrice);
   }, 0);
+  const thankout = () => {
+    alert('Thanks for Shopping ! Visit Again !.');
+  };
 
   return (
     <>
@@ -91,7 +94,7 @@ const Cart = ({ cart, setCart }) => {
                 <div className='Total'>
                   <h4>Sub Total: ₹{total}</h4>
                 </div>
-                <button>checkout</button>
+                <button onClick={thankout}>checkout</button>
               </>
             )}
           </div>
