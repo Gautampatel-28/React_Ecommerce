@@ -6,6 +6,7 @@ import { AiFillEye, AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { BiLogoFacebook, BiLogoTwitter, BiLogoInstagram, BiLogoYoutube } from "react-icons/bi";
 
 const Home = ({ addtocart }) => {
+  const backgroundImageUrl = `${import.meta.env.BASE_URL}image/slide-1.webp`;
   // Product categories
   const [newProduct, setNewProduct] = useState([]);
   const [featuredProduct, setFeaturdProduct] = useState([]);
@@ -43,10 +44,22 @@ const Home = ({ addtocart }) => {
     setTopProduct(topcategory);
   };
 
+
+
   return (
     <>
       <div className='home'>
-        <div className='top_banner'>
+      <div
+        className='top_banner'
+        style={{
+          maxWidth: '100%',
+          height: '395px',
+          backgroundImage: `url(${backgroundImageUrl})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          padding: '50px 60px',
+        }}
+      >
           <div className='contant'>
             <h3>silver aluminum</h3>
             <h2>Apple Watch</h2>
