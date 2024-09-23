@@ -79,7 +79,7 @@ const Nav = ({search, setSearch, searchproduct}) => {
               </div>
               <div className='nav'>
                   <ul>
-                    <li><Link to="/" className='link'>Home</Link></li>
+                    <li><Link to="/React_Ecommerce" className='link'>Home</Link></li>
                     <li><Link to="/shop" className='link'>Shop</Link></li>
                     <li><Link to="/cart" className='link'>Cart</Link></li>
                     <li><Link to="/contact" className='link'>Contact</Link></li>
